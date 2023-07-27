@@ -1,0 +1,31 @@
+{
+  "applications": "*",
+  "changelogDate": "20230726075008",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "feedbackhistory",
+  "fields": [
+    {
+      "fieldName": "feedbackText",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "feedbackDate",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Feedbackhistory",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "filledForm",
+      "otherEntityRelationshipName": "feedbackhistory",
+      "relationshipName": "filledForm",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

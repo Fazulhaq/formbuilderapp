@@ -1,0 +1,24 @@
+{
+  "formbuilderappApp": {
+    "emptyForm": {
+      "home": {
+        "title": "Empty Forms",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Empty Form",
+        "createOrEditLabel": "Create or edit a Empty Form",
+        "notFound": "No Empty Forms found"
+      },
+      "created": "A new Empty Form is created with identifier {{ param }}",
+      "updated": "A Empty Form is updated with identifier {{ param }}",
+      "deleted": "A Empty Form is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Empty Form {{ id }}?"
+      },
+      "detail": {
+        "title": "Empty Form"
+      },
+      "id": "ID",
+      "jSONText": "J SON Text"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "formbuilderappApp": {
+    "filledForm": {
+      "home": {
+        "title": "Filled Forms",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Filled Form",
+        "createOrEditLabel": "Create or edit a Filled Form",
+        "notFound": "No Filled Forms found"
+      },
+      "created": "A new Filled Form is created with identifier {{ param }}",
+      "updated": "A Filled Form is updated with identifier {{ param }}",
+      "deleted": "A Filled Form is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Filled Form {{ id }}?"
+      },
+      "detail": {
+        "title": "Filled Form"
+      },
+      "id": "ID",
+      "jSONText": "J SON Text",
+      "feedbackhistory": "Feedbackhistory"
+    }
+  }
+}

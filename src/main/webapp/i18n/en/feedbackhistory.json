@@ -1,0 +1,26 @@
+{
+  "formbuilderappApp": {
+    "feedbackhistory": {
+      "home": {
+        "title": "Feedbackhistories",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Feedbackhistory",
+        "createOrEditLabel": "Create or edit a Feedbackhistory",
+        "notFound": "No Feedbackhistories found"
+      },
+      "created": "A new Feedbackhistory is created with identifier {{ param }}",
+      "updated": "A Feedbackhistory is updated with identifier {{ param }}",
+      "deleted": "A Feedbackhistory is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Feedbackhistory {{ id }}?"
+      },
+      "detail": {
+        "title": "Feedbackhistory"
+      },
+      "id": "ID",
+      "feedbackText": "Feedback Text",
+      "feedbackDate": "Feedback Date",
+      "filledForm": "Filled Form"
+    }
+  }
+}

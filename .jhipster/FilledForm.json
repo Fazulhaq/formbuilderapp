@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20230726075010",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "filled_form",
+  "fields": [
+    {
+      "fieldName": "jSONText",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "FilledForm",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "feedbackhistory",
+      "otherEntityRelationshipName": "filledForm",
+      "relationshipName": "feedbackhistory",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

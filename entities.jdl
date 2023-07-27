@@ -1,0 +1,25 @@
+
+entity Feedbackhistory {
+    FeedbackText String,
+    FeedbackDate LocalDate
+}
+
+entity EmptyForm {
+    JSONText String required
+}
+
+entity FilledForm {
+    JSONText String required
+}
+
+relationship OneToMany {
+	FilledForm to Feedbackhistory{FilledForm}
+}
+
+enum Language {
+    ENGLISH,
+    FARSI
+}
+
+paginate FilledForm, EmptyForm, Feedbackhistory with pagination
+
